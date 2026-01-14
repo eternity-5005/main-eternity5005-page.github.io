@@ -1,0 +1,28 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: rgb(8, 8, 8);
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    justify-self: center;
+    
+}
+
+.quote-container{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes image {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
